@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="acceptance suit">
+    <test name="acceptance">
+        <classes>
+            <class name="realtest.KinoPoiskTopMoviesTest">
+                <methods>
+                    <exclude name="topMoviesTest">
+                    </exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
